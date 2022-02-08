@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D20CECD2771203F00923393 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20CECC2771203F00923393 /* TransactionView.swift */; };
+		6D20CECF27712EAD00923393 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20CECE27712EAD00923393 /* CardList.swift */; };
+		6D20CED127712F2D00923393 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20CED027712F2D00923393 /* TransactionRow.swift */; };
 		6D2275EE2770ED8400A8FADA /* Money_ManageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2275ED2770ED8400A8FADA /* Money_ManageApp.swift */; };
 		6D2275F02770ED8400A8FADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2275EF2770ED8400A8FADA /* ContentView.swift */; };
 		6D2275F22770ED8600A8FADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2275F12770ED8600A8FADA /* Assets.xcassets */; };
 		6D2275F52770ED8600A8FADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2275F42770ED8600A8FADA /* Preview Assets.xcassets */; };
+		6D2275FD2770EDCD00A8FADA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2275FC2770EDCD00A8FADA /* CardView.swift */; };
+		6DCD8B67277137A70016BFAB /* TransactionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCD8B66277137A70016BFAB /* TransactionHeader.swift */; };
+		6DCD8B6927713A8E0016BFAB /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCD8B6827713A8E0016BFAB /* CardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D20CECC2771203F00923393 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		6D20CECE27712EAD00923393 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		6D20CED027712F2D00923393 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		6D2275EA2770ED8400A8FADA /* Money Manage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Manage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2275ED2770ED8400A8FADA /* Money_ManageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_ManageApp.swift; sourceTree = "<group>"; };
 		6D2275EF2770ED8400A8FADA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D2275F12770ED8600A8FADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D2275F42770ED8600A8FADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D2275FC2770EDCD00A8FADA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6DCD8B66277137A70016BFAB /* TransactionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeader.swift; sourceTree = "<group>"; };
+		6DCD8B6827713A8E0016BFAB /* CardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				6D2275ED2770ED8400A8FADA /* Money_ManageApp.swift */,
-				6D2275EF2770ED8400A8FADA /* ContentView.swift */,
+				6D2275FB2770EDC100A8FADA /* Views */,
 				6D2275F12770ED8600A8FADA /* Assets.xcassets */,
 				6D2275F32770ED8600A8FADA /* Preview Content */,
 			);
@@ -65,6 +77,20 @@
 				6D2275F42770ED8600A8FADA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D2275FB2770EDC100A8FADA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D2275EF2770ED8400A8FADA /* ContentView.swift */,
+				6DCD8B6827713A8E0016BFAB /* CardScreen.swift */,
+				6D20CECE27712EAD00923393 /* CardList.swift */,
+				6D20CECC2771203F00923393 /* TransactionView.swift */,
+				6DCD8B66277137A70016BFAB /* TransactionHeader.swift */,
+				6D20CED027712F2D00923393 /* TransactionRow.swift */,
+				6D2275FC2770EDCD00A8FADA /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D2275F02770ED8400A8FADA /* ContentView.swift in Sources */,
+				6D20CECD2771203F00923393 /* TransactionView.swift in Sources */,
+				6D20CECF27712EAD00923393 /* CardList.swift in Sources */,
+				6DCD8B67277137A70016BFAB /* TransactionHeader.swift in Sources */,
+				6D20CED127712F2D00923393 /* TransactionRow.swift in Sources */,
+				6DCD8B6927713A8E0016BFAB /* CardScreen.swift in Sources */,
+				6D2275FD2770EDCD00A8FADA /* CardView.swift in Sources */,
 				6D2275EE2770ED8400A8FADA /* Money_ManageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
